@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/planodefundobingo"
+    tools:context=".obingo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontuação: "
+        android:id="@+id/textpontos"
+        android:textSize="45dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:text="Número da vez: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textnumerovez"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela2"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela3"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela4"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela5"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela6"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela7"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela8"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela9"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela10"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela11"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela12"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela13"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela14"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela15"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela16"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela17"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela18"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela19"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela20"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela21"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela22"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela23"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela24"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttoncartela25"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
